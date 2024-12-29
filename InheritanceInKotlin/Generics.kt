@@ -10,6 +10,6 @@ fun main(){
     val customerRepo = CustomerGenericRepository<Customer>()
 
     val customer = customerRepo.getByID(10)
-    val customers = customerRepo.getByID()
+    val customers = customerRepo.getAll()
 
 }

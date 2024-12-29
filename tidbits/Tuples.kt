@@ -28,4 +28,11 @@ fun main(){
     val (capital,population) = capitalAndPopulation("AHD")
     println("Desconstruct "+capital)
     println("Desconstruct "+population)
+
+    val listCapitalAndCountries =  listOf(Pair("AHD","INDB"),"GWL" to "GUNA") // Deconstruct the values
+
+    for ((capital,country) in listCapitalAndCountries){ // Deconstruct the values in for loop
+        println("$capital - $country ")
+    }
+
 }

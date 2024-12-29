@@ -25,4 +25,7 @@ fun main(){
     println("Value of Triplets"+TripleResult.second)
     println("Value of Triplets"+TripleResult.third)
 
+    val (capital,population) = capitalAndPopulation("AHD")
+    println("Desconstruct "+capital)
+    println("Desconstruct "+population)
 }

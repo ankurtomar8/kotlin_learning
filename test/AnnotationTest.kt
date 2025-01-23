@@ -4,7 +4,7 @@ import org.junit.Test
 
 class AnnotationTest {
 
-   @Test
+   @Test // Annotation  for JUNIT in Kotlin
    fun testAnnotation(){
 
     }

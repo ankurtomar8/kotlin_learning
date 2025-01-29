@@ -8,8 +8,16 @@ fun main(){
     customer.email = "mail@ankurtomar.com"
 
     customer.prettyPrint() // Calling Java Method from Kotlin Class
+    customer.neverNull()
+    customer.sometimesNull()
 
     val runnable = Runnable { println("Invoking runnable") }
+
+    val kr = KotlinCustomerRepo()
+
+    val customerJava = kr.getById(10)
+
+    customerJava.id
 }
 
 class  PersonKotlin: PersonJava(){

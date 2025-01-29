@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Objects;
 
 public class CustomerJava {
@@ -19,6 +21,13 @@ public void prettyPrint() {
         System.out.println(email);
 }
 
+public @NotNull String  neverNull(){
+        return "A String";
+}
+
+public String sometimesNull(){
+        return "A New  String ";
+}
 
     @Override
     public boolean equals(Object o) {

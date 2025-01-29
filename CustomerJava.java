@@ -15,6 +15,10 @@ public class CustomerJava {
     }
 
 
+public void prettyPrint() {
+        System.out.println(email);
+}
+
 
     @Override
     public boolean equals(Object o) {

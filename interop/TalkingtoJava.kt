@@ -11,6 +11,8 @@ fun main(){
     customer.neverNull()
     customer.sometimesNull()
 
+//    TopLevelFunntionsKt.prefix("some","value")
+
     val runnable = Runnable { println("Invoking runnable") }
 
     val kr = KotlinCustomerRepo()

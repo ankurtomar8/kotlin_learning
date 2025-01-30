@@ -1,4 +1,4 @@
-
+package CustomerClass
 data class CustomerKotlin(var id : Int, var name:String, var email:String)
 // Data return object in console
 

@@ -1,3 +1,5 @@
+package CustomerClass
+
 import java.util.Calendar
 
 class CustomerClass {

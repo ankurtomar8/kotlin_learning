@@ -1,7 +1,5 @@
 package interop
 
-import CustomerJava
-
 fun main(){
     val  customer = CustomerJava()
 
@@ -27,11 +25,11 @@ class  PersonKotlin: PersonJava(){
 }
 
 class KotlinCustomerRepo: CustomerRepository{
-    override fun getById(id: Int): CustomerJava {
+    fun getById(id: Int): CustomerJava {
         TODO("Not yet implemented")
     }
 
-    override fun getAll(): MutableList<CustomerJava> {
+    fun getAll(): MutableList<CustomerJava> {
         TODO("Not yet implemented")
     }
 }

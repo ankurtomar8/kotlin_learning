@@ -1,3 +1,5 @@
+package interop;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
@@ -9,7 +11,7 @@ public class CustomerJava {
 
     @Override
     public String toString() {
-        return "CustomerJava{" +
+        return "interop.CustomerJava{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +

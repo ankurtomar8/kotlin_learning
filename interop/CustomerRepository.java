@@ -1,10 +1,10 @@
 package interop;
 
-import CustomerJava;
+//import interop.CustomerJava;
 
 import java.util.List;
 
 public interface CustomerRepository {
-    CustomerJava getById(int id);
-    List<CustomerJava> getAll();
+   // interop.CustomerJava getById(int id);
+    //List<interop.CustomerJava> getAll();
 }

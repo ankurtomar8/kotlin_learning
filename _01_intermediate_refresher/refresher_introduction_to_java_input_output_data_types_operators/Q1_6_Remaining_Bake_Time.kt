@@ -1,4 +1,4 @@
 fun main(){
     var n = readLine()!!.toInt()
-    println("${n-40}")
+    println("${40-n}")
 }

@@ -1,7 +1,7 @@
 fun main(){
     
-    val n = readLine()!!.toInt()
+    val n = readLine()
 
-    println("${n+10}")
+    println(n)
 
 }

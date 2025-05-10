@@ -4,7 +4,7 @@ fun main(){
     var C =  readLine()?.toIntOrNull() ?: 0
     var D =  readLine()?.toIntOrNull() ?: 0
     var E =  readLine()?.toIntOrNull() ?: 0
-    var F =  readLine()?.toIntOrNull() ?: 0
+  
 
 
 /*   Bad approach in kotlin 
@@ -30,7 +30,7 @@ when {
     C in 70..79 ->  println("${C}\nC")
     D in 60..69 ->  println("${D}\nD")
     E in 40..59 ->  println("${E}\nE")
-    else ->   println("${F}\nF")
+    else ->   println("${E}\nF")
 }
 
 

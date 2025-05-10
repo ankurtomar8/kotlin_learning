@@ -1,8 +1,8 @@
 fun main(){
     var  n = readLine()!!.toInt()
-    
-    while(n >= 1){
-        print("${n} ")
-        n--
+    var i = 1
+    while( i <= n){
+        print("${i} ")
+        i++
     }
 }

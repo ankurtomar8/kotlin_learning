@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and run Kotlin",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "kotlinc ${relativeFile} -include-runtime -d ${fileBasenameNoExtension}.jar && java -jar ${fileBasenameNoExtension}.jar < input.txt > output.txt"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": {
+                "owner": "kotlin",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*\\.kt):(\\d+):(\\d+):\\s+(Error|Warning):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        }
+    ]
+}

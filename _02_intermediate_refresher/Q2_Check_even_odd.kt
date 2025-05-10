@@ -6,4 +6,7 @@ fun main(){
     }else{
         println("0")
     }
+
+     println(n and 1)
+
 }
